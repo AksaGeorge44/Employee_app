@@ -1,5 +1,8 @@
+import 'package:employeeapp/screens/drawer.dart';
 import 'package:employeeapp/screens/list.dart';
 import 'package:employeeapp/screens/register.dart';
+import 'package:employeeapp/screens/tabview.dart';
+import 'package:employeeapp/screens/view.dart';
 import 'package:flutter/material.dart';
 import 'package:employeeapp/screens/login.dart';
 
@@ -18,7 +21,7 @@ class App extends StatelessWidget {
         appBar: AppBar(
           title: Text("Emp App"),
         ),
-        body:EmployeeView()
+        body:MyDrawer()
       ),
     );
   }

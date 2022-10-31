@@ -1,4 +1,7 @@
 
+import 'package:employeeapp/screens/contact.dart';
+import 'package:employeeapp/screens/home.dart';
+import 'package:employeeapp/screens/profile.dart';
 import 'package:flutter/material.dart';
 class EmployeeList extends StatefulWidget {
   const EmployeeList({Key? key}) : super(key: key);
