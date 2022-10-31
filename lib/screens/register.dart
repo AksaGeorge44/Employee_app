@@ -2,8 +2,6 @@
 import 'package:employeeapp/screens/login.dart';
 import 'package:employeeapp/screens/register.dart';
 import 'package:flutter/material.dart';
-
-
 class Register extends StatelessWidget {
   Register({Key? key}) : super(key: key);
   TextEditingController empcode=TextEditingController();

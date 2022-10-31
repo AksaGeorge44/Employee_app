@@ -1,10 +1,6 @@
 import 'package:employeeapp/screens/register.dart';
 import 'package:flutter/material.dart';
 import 'package:employeeapp/screens/login.dart';
-
-
-
-
 class Loginscreen extends StatelessWidget {
    Loginscreen({Key? key}) : super(key: key);
   TextEditingController uname=TextEditingController();
